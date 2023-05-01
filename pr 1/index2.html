@@ -1,0 +1,27 @@
+<body bgcolor="lightblue">
+    
+</body>
+<h1 style="color:rgb(252, 0, 218)"id="que1"></h1>
+<h1 style="color:rgb(251, 255, 0)" id="Ans"></h1>
+<script type="text/javascript">
+
+
+let a = prompt('Enter the first variable: ');
+let b = prompt('Enter the second variable: ');
+
+let temp;
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(`The value of a after swapping: ${a}`);
+console.log(`The value of b after swapping: ${b}`);
+
+
+document.getElementById('que1').innerHTML="QUESTION-2";
+
+document.write("<h1 style='color:blue'>Ans="+a+"</h1>");
+
+document.write("<h1 style='color:blue'>Ans="+b+"</h1>");
+</script>

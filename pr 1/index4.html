@@ -1,0 +1,22 @@
+<body bgcolor="lightblue">
+
+</body>
+<h1 style="color:rgb(252, 0, 218)" id="que1"></h1>
+<h1 style="color:rgb(251, 255, 0)" id="Ans"></h1>
+<script>
+    (function calculate() {
+        var bpay, bonus, gross;
+        bpay = 10000;
+
+        bonus = 0.2 * bpay;
+        gross = bonus + bpay;
+
+        console.log("Basic Pay: " + bpay);
+        console.log("Bonus: " + bonus);
+        console.log("Gross: " + gross);
+        document.getElementById('que1').innerHTML = "QUESTION-4";
+
+       
+        document.write("<h1 style='color:blue'>Ans=" + gross + "</h1>");
+    })();
+</script>

@@ -1,0 +1,22 @@
+<body bgcolor="lightblue">
+
+</body>
+<h1 style="color:rgb(252, 0, 218)" id="que1"></h1>
+<h1 style="color:rgb(251, 255, 0)" id="Ans"></h1>
+<script>
+
+    function findArea(b,h) {
+        return (0.5 * b * h);
+    }
+
+    let b,h, Area;
+    b = 5;
+    h = 8;
+
+    Area = findArea(b,h);
+    console.log("Area of triangle is: " + Area);
+    document.getElementById('que1').innerHTML = "QUESTION-6";
+
+       
+        document.write("<h1 style='color:blue'>Ans=" +Area + "</h1>");
+</script>

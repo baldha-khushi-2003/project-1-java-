@@ -1,0 +1,26 @@
+<body bgcolor="lightblue">
+    
+</body>
+<h1 style="color:rgb(252, 0, 218)"id="que1"></h1>
+<h1 style="color:rgb(251, 255, 0)" id="Ans"></h1>
+<script type="text/javascript">
+
+    var a = parseInt(prompt("ENTER NUMBER :-"));
+    var b = parseInt(prompt("ENTER NUMBER:-"));
+    var c = a + b;
+    var d= a-b;
+    var e= a*b;
+    var f= a/b;
+
+    console.log("Addition Ans=" + c);
+    console.log("Subtraction Ans=" + d);
+    console.log("Multiplication Ans=" + e);
+    console.log("Division Ans=" + f);
+
+    document.getElementById('que1').innerHTML="QUESTION-1";
+
+    document.write("<h1 style='color:blue'>Addition Ans(a+b)="+c+"</h1>");
+    document.write("<h1 style='color:red'>Subtraction Ans(a-b)="+d+"</h1>");
+    document.write("<h1 style='color:green'>Multiplication Ans(a*b)="+e+"</h1>");
+    document.write("<h1 style='color:black'>Division Ans(a/b)="+f+"</h1>");
+    </script>
